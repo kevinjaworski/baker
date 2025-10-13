@@ -1,0 +1,51 @@
+{
+  "market_date": "2025-10-19T09:00:00",
+  "last_updated": "2025-10-13T10:45:27.110604",
+  "categories": [
+    {
+      "name": "Bread",
+      "items": [
+        {
+          "name": "Foccacia, Olive",
+          "description": "Made with Yeast, Active Dry, Honey, Local, Flour, Bread, and more",
+          "price": 8.0,
+          "allergens": [
+            "gluten"
+          ],
+          "sold_out": false
+        }
+      ]
+    },
+    {
+      "name": "Cookies",
+      "items": [
+        {
+          "name": "Palmiers",
+          "description": "Made with Sugar, Turbinado, Cinnamon, Ground, Egg, and more",
+          "price": 3.0,
+          "allergens": [
+            "dairy",
+            "eggs",
+            "gluten"
+          ],
+          "sold_out": false
+        }
+      ]
+    },
+    {
+      "name": "Pastries",
+      "items": [
+        {
+          "name": "Kouign-Amann",
+          "description": "Made with Flour, AP, Butter, KG Unsalted, Salt, Kosher, and more",
+          "price": 4.5,
+          "allergens": [
+            "dairy",
+            "gluten"
+          ],
+          "sold_out": false
+        }
+      ]
+    }
+  ]
+}
