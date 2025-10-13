@@ -6,9 +6,9 @@
       "name": "Bread",
       "items": [
         {
-          "name": "Foccacia, Olive",
-          "description": "Made with Yeast, Active Dry, Honey, Local, Flour, Bread, and more",
-          "price": 8.0,
+          "name": "Olive Foccacia",
+          "description": "Bread Flour, Olive Oil, Olives (Castelvatrano, Kalamata), Garlic, Rosemary, Honey, Yeast, Salt",
+          "price": 6.0,
           "allergens": [
             "gluten"
           ],
@@ -21,8 +21,8 @@
       "items": [
         {
           "name": "Palmiers",
-          "description": "Made with Sugar, Turbinado, Cinnamon, Ground, Egg, and more",
-          "price": 3.0,
+          "description": "Flour, Butter, Sugar, Salt, Egg, Cinnamon",
+          "price": 2.0,
           "allergens": [
             "dairy",
             "eggs",
@@ -37,8 +37,8 @@
       "items": [
         {
           "name": "Kouign-Amann",
-          "description": "Made with Flour, AP, Butter, KG Unsalted, Salt, Kosher, and more",
-          "price": 4.5,
+          "description": "Flour, Butter, Sugar, Salt, Cinnamon",
+          "price": 3.0,
           "allergens": [
             "dairy",
             "gluten"
