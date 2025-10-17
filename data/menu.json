@@ -7,7 +7,7 @@
       "items": [
         {
           "name": "Olive Foccacia",
-          "description": "Bread Flour, Olive Oil, Olives (Castelvatrano, Kalamata), Garlic, Rosemary, Honey, Yeast, Salt",
+          "description": "Half loaf of Focaccia. Bread Flour, Olive Oil, Olives (Castelvatrano, Kalamata), Garlic, Rosemary, Honey, Yeast, Salt",
           "price": 6.0,
           "allergens": [
             "gluten"
@@ -21,7 +21,7 @@
       "items": [
         {
           "name": "Palmiers",
-          "description": "Flour, Butter, Sugar, Salt, Egg, Cinnamon",
+          "description": "2 puff pastry cookies. Flour, Butter, Sugar, Salt, Egg, Cinnamon",
           "price": 2.0,
           "allergens": [
             "dairy",
@@ -37,10 +37,21 @@
       "items": [
         {
           "name": "Kouign-Amann",
-          "description": "Flour, Butter, Sugar, Salt, Cinnamon",
+          "description": "Briton butter pastry with a caramelized crust. Flour, Butter, Sugar, Salt, Cinnamon",
           "price": 3.0,
           "allergens": [
             "dairy",
+            "gluten"
+          ],
+          "sold_out": false
+        }, 
+         {
+          "name": "Pasteis de Nata",
+          "description": "Portuguese citrus custard tart. Flour, Butter, Milk, Egg, Sugar, Lemon, Vanilla Extract, Cinnamon, Salt",
+          "price": 3.0,
+          "allergens": [
+            "dairy",
+            "eggs",
             "gluten"
           ],
           "sold_out": false
