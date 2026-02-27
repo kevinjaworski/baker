@@ -1,17 +1,62 @@
 {
-  "market_date": "2025-10-19T09:00:00",
-  "last_updated": "2025-10-13T10:45:27.110604",
+  "market_date": "2026-05-17T09:00:00",
+  "last_updated": "2026-02-27T00:00:00",
   "categories": [
     {
-      "name": "Bread",
+      "name": "Pastries",
       "items": [
         {
-          "name": "Olive Foccacia",
-          "description": "Half loaf of Focaccia. Bread Flour, Olive Oil, Olives (Castelvatrano, Kalamata), Garlic, Rosemary, Honey, Yeast, Salt",
-          "price": 6.0,
-          "allergens": [
-            "gluten"
-          ],
+          "name": "Kouign-Amann",
+          "description": "Breton laminated butter pastry with a caramelized crust. All-Purpose Flour, Salted European-Style Butter, Sugar, Unsalted Butter, Salt, Yeast",
+          "price": 3.00,
+          "allergens": ["dairy", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Palmiers",
+          "description": "French laminated puff pastry cookie. All-Purpose Flour, Unsalted Butter, Demerara Sugar, Egg, Sugar, Kosher Salt, Ground Cinnamon",
+          "price": 2.00,
+          "allergens": ["dairy", "eggs", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Tarte Tatin",
+          "description": "French upside-down caramelized apple tart on flaky butter pastry. Apples, All-Purpose Flour, Unsalted Butter, Sugar, Apple Cider Vinegar, Vanilla Extract, Kosher Salt",
+          "price": 2.50,
+          "allergens": ["dairy", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Linzertorte",
+          "description": "Austrian nut tart with fruit jam filling. Sugar, Unsalted Butter, Fruit (Blackberries, Raspberries, Blueberries, or Strawberries), All-Purpose Flour, Pistachios (or Hazelnuts, Almonds, Pecans, or Walnuts), Egg, Lemon Juice, Vanilla Extract, Lemon Zest, Ground Cinnamon, Kosher Salt",
+          "price": 3.00,
+          "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
+          "sold_out": false
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "name": "Focaccia",
+          "description": "Olive oil flatbread with olives, rosemary, and sea salt. All-Purpose Flour, Extra-Virgin Olive Oil, Unsalted Butter, Castelvetrano Olives (Castelvetrano Olives, Water, Sea Salt, Lactic Acid, Ascorbic Acid, Citric Acid), Kalamata Olives (Kalamata Olives, Water, Sea Salt, Red Wine Vinegar, Lactic Acid, Extra Virgin Olive Oil), Rosemary, Garlic, Honey, Kosher Salt, Active Dry Yeast, Flaky Sea Salt",
+          "price": 5.00,
+          "allergens": ["dairy", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "French-Style Baguette",
+          "description": "Classic French baguette made with milk whey. Bread Flour, Milk Whey, Salt, Yeast",
+          "price": 6.00,
+          "allergens": ["dairy", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Soft Pretzel",
+          "description": "Soft pretzel with a sodium carbonate alkaline boil. All-Purpose Flour, Water, Unsalted Butter, Yeast, Brown Sugar, Salt, Sodium Carbonate",
+          "price": 0.50,
+          "allergens": ["dairy", "gluten"],
           "sold_out": false
         }
       ]
@@ -20,40 +65,64 @@
       "name": "Cookies",
       "items": [
         {
-          "name": "Palmiers",
-          "description": "2 puff pastry cookies. Flour, Butter, Sugar, Salt, Egg, Cinnamon",
-          "price": 2.0,
-          "allergens": [
-            "dairy",
-            "eggs",
-            "gluten"
-          ],
+          "name": "Thrice-Baked Rye Shortbread",
+          "description": "Crisp rye shortbread with a snap from sieved hard-boiled egg yolks. Unsalted Butter, Granulated Sugar, All-Purpose Flour, Rye Flour, Egg, Vanilla Extract, Demerara Sugar, Kosher Salt, Baking Powder",
+          "price": 1.00,
+          "allergens": ["dairy", "eggs", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Pecan Brittle Oat Cookies",
+          "description": "Oat cookies with house-made pecan brittle. Unsalted Butter, Granulated Sugar, Rolled Oats, All-Purpose Flour, Dark Brown Sugar, Pecans, Eggs, Vanilla Extract, Baking Soda, Kosher Salt",
+          "price": 1.50,
+          "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
+          "sold_out": false
+        },
+        {
+          "name": "Molasses Spice Cookies",
+          "description": "Chewy spiced molasses cookies with long pepper. All-Purpose Flour, Dark Brown Sugar, Unsalted Butter, Molasses, Eggs, Demerara Sugar, Baking Soda, Apple Cider Vinegar, Vanilla Extract, Ground Ginger, Kosher Salt, Long Pepper, Ground Allspice, Ground Cloves",
+          "price": 1.50,
+          "allergens": ["dairy", "eggs", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Almond Cookies",
+          "description": "Tender almond shortbread cookies with egg wash finish. Unsalted Butter, Sugar, All-Purpose Flour, Almond Flour, Eggs, Almond Extract, Baking Soda, Kosher Salt",
+          "price": 1.00,
+          "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
+          "sold_out": false
+        },
+        {
+          "name": "Sablés",
+          "description": "French shortbread cookies with lemon zest and sage. All-Purpose Flour, Unsalted Butter, Granulated Sugar, Demerara Sugar, Cornstarch, Egg Yolks, Sage, Vanilla Extract, Kosher Salt, Lemon Zest",
+          "price": 1.50,
+          "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         }
       ]
     },
     {
-      "name": "Pastries",
+      "name": "Cakes",
       "items": [
         {
-          "name": "Kouign-Amann",
-          "description": "Briton butter pastry with a caramelized crust. Flour, Butter, Sugar, Salt, Cinnamon",
-          "price": 3.0,
-          "allergens": [
-            "dairy",
-            "gluten"
-          ],
+          "name": "\"Rosh Hashanah\" Cake",
+          "description": "Honey rye loaf cake. All-Purpose Flour, Honey, Neutral Oil, Applesauce (Apples, Water, Ascorbic Acid), Eggs, Sugar, Rye Flour, Baking Powder, Lemon Zest, Ground Cinnamon, Kosher Salt, Ground Allspice, Ground Nutmeg, Ground Cloves",
+          "price": 2.00,
+          "allergens": ["eggs", "gluten"],
           "sold_out": false
-        }, 
-         {
-          "name": "Pasteis de Nata",
-          "description": "Portuguese citrus custard tart. Flour, Butter, Milk, Egg, Sugar, Lemon, Vanilla Extract, Cinnamon, Salt",
-          "price": 3.0,
-          "allergens": [
-            "dairy",
-            "eggs",
-            "gluten"
-          ],
+        },
+        {
+          "name": "Kabocha Tea Cake",
+          "description": "Loaf cake with kabocha squash and pumpkin seeds. Kabocha Squash, All-Purpose Flour, Sugar, Virgin Coconut Oil, Eggs, Pumpkin Seeds, Maple Syrup, Baking Powder, Vanilla Extract, Ground Turmeric, Kosher Salt, Garam Masala (Cumin, Black Pepper, Cinnamon, Cloves, Coriander, Cardamom)",
+          "price": 2.00,
+          "allergens": ["eggs", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Coffee-Coffee Cake",
+          "description": "Sheet cake with coffee ribbon and cardamom crumb topping. All-Purpose Flour, Light Brown Sugar, Unsalted Butter, Granulated Sugar, Eggs, Sour Cream, Brewed Coffee, Neutral Oil, Instant Coffee Granules, Vanilla Extract, Baking Powder, Kosher Salt, Ground Cinnamon, Baking Soda, Ground Cardamom",
+          "price": 2.50,
+          "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         }
       ]
