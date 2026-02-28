@@ -7,28 +7,28 @@
       "items": [
         {
           "name": "Kouign-Amann",
-          "description": "Breton laminated butter pastry with a caramelized crust. All-Purpose Flour, Salted European-Style Butter, Sugar, Unsalted Butter, Salt, Yeast",
+          "description": "French-Breton laminated butter pastry with a caramelized crust. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Butter, Sugar, Salt, Yeast",
           "price": 3.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
         },
         {
           "name": "Palmiers",
-          "description": "French laminated puff pastry cookie. All-Purpose Flour, Unsalted Butter, Demerara Sugar, Egg, Sugar, Kosher Salt, Ground Cinnamon",
+          "description": "French laminated puff pastry cookie. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Demerara Sugar, Eggs, Sugar, Kosher Salt, Ground Cinnamon",
           "price": 2.00,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         },
         {
           "name": "Tarte Tatin",
-          "description": "French upside-down caramelized apple tart on flaky butter pastry. Apples, All-Purpose Flour, Unsalted Butter, Sugar, Apple Cider Vinegar, Vanilla Extract, Kosher Salt",
-          "price": 2.50,
+          "description": "French upside-down caramelized apple tart on flaky butter pastry. Apples, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Sugar, Apple Cider Vinegar, Apple Brandy, Vanilla Extract, Kosher Salt",
+          "price": 3.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
         },
         {
           "name": "Linzertorte",
-          "description": "Austrian nut tart with fruit jam filling. Sugar, Unsalted Butter, Fruit (Blackberries, Raspberries, Blueberries, or Strawberries), All-Purpose Flour, Pistachios (or Hazelnuts, Almonds, Pecans, or Walnuts), Egg, Lemon Juice, Vanilla Extract, Lemon Zest, Ground Cinnamon, Kosher Salt",
+          "description": "Austrian nut tart with fruit jam filling, selection varies. Sugar, Unsalted Butter, Fruit (Blackberries, Raspberries, Blueberries, or Strawberries), All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Pistachios (or Hazelnuts, Almonds, Pecans, Walnuts), Eggs, Lemon Juice, Vanilla Extract, Lemon Zest, Ground Cinnamon, Kosher Salt",
           "price": 3.00,
           "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
           "sold_out": false
@@ -40,21 +40,21 @@
       "items": [
         {
           "name": "Focaccia",
-          "description": "Olive oil flatbread with olives, rosemary, and sea salt. All-Purpose Flour, Extra-Virgin Olive Oil, Unsalted Butter, Castelvetrano Olives (Castelvetrano Olives, Water, Sea Salt, Lactic Acid, Ascorbic Acid, Citric Acid), Kalamata Olives (Kalamata Olives, Water, Sea Salt, Red Wine Vinegar, Lactic Acid, Extra Virgin Olive Oil), Rosemary, Garlic, Honey, Kosher Salt, Active Dry Yeast, Flaky Sea Salt",
+          "description": "Italian olive oil bread topped with olives, rosemary, and sea salt. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Extra-Virgin Olive Oil, Butter, Castelvetrano Olives (Castelvetrano Olives, Water, Sea Salt, Lactic Acid, Ascorbic Acid, Citric Acid), Kalamata Olives (Kalamata Olives, Water, Sea Salt, Red Wine Vinegar, Lactic Acid, Extra Virgin Olive Oil), Rosemary, Garlic, Honey, Kosher Salt, Active Dry Yeast, Sea Salt",
           "price": 5.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
         },
         {
           "name": "French-Style Baguette",
-          "description": "Classic French baguette made with milk whey. Bread Flour, Milk Whey, Salt, Yeast",
+          "description": "French bread with medium crumb & crackly crust. Bread Flour (Unbleached Hard Red Wheat Flour, Malted Barley Flour), Milk Whey, Salt, Yeast",
           "price": 6.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
         },
         {
           "name": "Soft Pretzel",
-          "description": "Soft pretzel with a sodium carbonate alkaline boil. All-Purpose Flour, Water, Unsalted Butter, Yeast, Brown Sugar, Salt, Sodium Carbonate",
+          "description": "German-American soft pretzel stick. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Yeast, Brown Sugar, Salt, Sodium Carbonate",
           "price": 0.50,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
@@ -66,35 +66,35 @@
       "items": [
         {
           "name": "Thrice-Baked Rye Shortbread",
-          "description": "Crisp rye shortbread with a snap from sieved hard-boiled egg yolks. Unsalted Butter, Granulated Sugar, All-Purpose Flour, Rye Flour, Egg, Vanilla Extract, Demerara Sugar, Kosher Salt, Baking Powder",
+          "description": "Crisp rye-forward shortbread. Unsalted Butter, Granulated Sugar, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Rye Flour, Eggs, Vanilla Extract, Demerara Sugar, Kosher Salt, Baking Powder",
           "price": 1.00,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         },
         {
           "name": "Pecan Brittle Oat Cookies",
-          "description": "Oat cookies with house-made pecan brittle. Unsalted Butter, Granulated Sugar, Rolled Oats, All-Purpose Flour, Dark Brown Sugar, Pecans, Eggs, Vanilla Extract, Baking Soda, Kosher Salt",
-          "price": 1.50,
+          "description": "Lacy oat cookies with pecan brittle. Unsalted Butter, Granulated Sugar, Rolled Oats, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Brown Sugar, Pecans, Eggs, Vanilla Extract, Baking Soda, Kosher Salt",
+          "price": 2.00,
           "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
           "sold_out": false
         },
         {
           "name": "Molasses Spice Cookies",
-          "description": "Chewy spiced molasses cookies with long pepper. All-Purpose Flour, Dark Brown Sugar, Unsalted Butter, Molasses, Eggs, Demerara Sugar, Baking Soda, Apple Cider Vinegar, Vanilla Extract, Ground Ginger, Kosher Salt, Long Pepper, Ground Allspice, Ground Cloves",
+          "description": "Chewy molasses cookies, highlighting the flavor of ground long pepper, also known as the pipalli fruit. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Dark Brown Sugar, Butter, Molasses, Eggs, Demerara Sugar, Baking Soda, Apple Cider Vinegar, Vanilla Extract, Ground Ginger, Kosher Salt, Ground Long Pepper, Ground Allspice, Ground Cloves",
           "price": 1.50,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         },
         {
           "name": "Almond Cookies",
-          "description": "Tender almond shortbread cookies with egg wash finish. Unsalted Butter, Sugar, All-Purpose Flour, Almond Flour, Eggs, Almond Extract, Baking Soda, Kosher Salt",
+          "description": "Crumbly almond shortbread cookies. Unsalted Butter, Sugar, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Almond Flour, Eggs, Almond Extract, Baking Soda, Kosher Salt",
           "price": 1.00,
           "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
           "sold_out": false
         },
         {
-          "name": "Sablés",
-          "description": "French shortbread cookies with lemon zest and sage. All-Purpose Flour, Unsalted Butter, Granulated Sugar, Demerara Sugar, Cornstarch, Egg Yolks, Sage, Vanilla Extract, Kosher Salt, Lemon Zest",
+          "name": "Sage-Lemon Sablés",
+          "description": "French shortbread cookies, highlighting the flavor of fresh sage. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Granulated Sugar, Demerara Sugar, Cornstarch, Eggs, Sage, Vanilla Extract, Kosher Salt, Lemon Zest",
           "price": 1.50,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
@@ -105,22 +105,22 @@
       "name": "Cakes",
       "items": [
         {
-          "name": "\"Rosh Hashanah\" Cake",
-          "description": "Honey rye loaf cake. All-Purpose Flour, Honey, Neutral Oil, Applesauce (Apples, Water, Ascorbic Acid), Eggs, Sugar, Rye Flour, Baking Powder, Lemon Zest, Ground Cinnamon, Kosher Salt, Ground Allspice, Ground Nutmeg, Ground Cloves",
+          "name": "Rosh Hashanah Cake",
+          "description": "Celebratory honey-rye loaf cake, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Honey, Applesauce (Apples, Water, Ascorbic Acid), Eggs, Sugar, Rye Flour, Baking Powder, Ground Cinnamon, Kosher Salt, Ground Allspice, Ground Nutmeg, Lemon Zest, Ground Cloves, Vegetable Oil",
           "price": 2.00,
           "allergens": ["eggs", "gluten"],
           "sold_out": false
         },
         {
           "name": "Kabocha Tea Cake",
-          "description": "Loaf cake with kabocha squash and pumpkin seeds. Kabocha Squash, All-Purpose Flour, Sugar, Virgin Coconut Oil, Eggs, Pumpkin Seeds, Maple Syrup, Baking Powder, Vanilla Extract, Ground Turmeric, Kosher Salt, Garam Masala (Cumin, Black Pepper, Cinnamon, Cloves, Coriander, Cardamom)",
+          "description": "Spiced loaf cake with kabocha squash and pumpkin seeds, sold by the slice. Kabocha Squash, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Sugar, Virgin Coconut Oil, Eggs, Pumpkin Seeds, Maple Syrup, Baking Powder, Vanilla Extract, Ground Turmeric, Kosher Salt, Garam Masala (Cumin, Black Pepper, Cinnamon, Cloves, Coriander, Cardamom)",
           "price": 2.00,
           "allergens": ["eggs", "gluten"],
           "sold_out": false
         },
         {
           "name": "Coffee-Coffee Cake",
-          "description": "Sheet cake with coffee ribbon and cardamom crumb topping. All-Purpose Flour, Light Brown Sugar, Unsalted Butter, Granulated Sugar, Eggs, Sour Cream, Brewed Coffee, Neutral Oil, Instant Coffee Granules, Vanilla Extract, Baking Powder, Kosher Salt, Ground Cinnamon, Baking Soda, Ground Cardamom",
+          "description": "Coffee-flavored crumb cake with coffee ribbon and streusel topping, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Brown Sugar, Butter, Granulated Sugar, Eggs, Sour Cream, Brewed Coffee, Vegetable Oil, Instant Coffee Granules, Vanilla Extract, Baking Powder, Kosher Salt, Ground Cinnamon, Baking Soda, Ground Cardamom",
           "price": 2.50,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
