@@ -1,6 +1,6 @@
 {
   "market_date": "2026-05-17T09:00:00",
-  "last_updated": "2026-02-27T00:00:00",
+  "last_updated": "2026-05-06T00:00:00",
   "categories": [
     {
       "name": "Pastries",
@@ -11,29 +11,7 @@
           "price": 3.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
-        },
-        {
-          "name": "Palmiers",
-          "description": "French laminated puff pastry cookie. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Demerara Sugar, Eggs, Sugar, Kosher Salt, Ground Cinnamon",
-          "price": 2.00,
-          "allergens": ["dairy", "eggs", "gluten"],
-          "sold_out": false
-        },
-        {
-          "name": "Tarte Tatin",
-          "description": "French upside-down caramelized apple tart on flaky butter pastry. Apples, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Sugar, Apple Cider Vinegar, Apple Brandy, Vanilla Extract, Kosher Salt",
-          "price": 3.00,
-          "allergens": ["dairy", "gluten"],
-          "sold_out": false
-        },
-        {
-          "name": "Linzertorte",
-          "description": "Austrian nut tart with fruit jam filling, selection varies. Sugar, Unsalted Butter, Fruit (Blackberries, Raspberries, Blueberries, or Strawberries), All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Pistachios (or Hazelnuts, Almonds, Pecans, Walnuts), Eggs, Lemon Juice, Vanilla Extract, Lemon Zest, Ground Cinnamon, Kosher Salt",
-          "price": 3.00,
-          "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
-          "sold_out": false
-        }
-      ]
+        }      ]
     },
     {
       "name": "Breads",
@@ -51,13 +29,6 @@
           "price": 6.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
-        },
-        {
-          "name": "Soft Pretzel",
-          "description": "German-American soft pretzel stick. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Yeast, Brown Sugar, Salt, Sodium Carbonate",
-          "price": 0.50,
-          "allergens": ["dairy", "gluten"],
-          "sold_out": false
         }
       ]
     },
@@ -65,36 +36,8 @@
       "name": "Cookies",
       "items": [
         {
-          "name": "Thrice-Baked Rye Shortbread",
-          "description": "Crisp rye-forward shortbread. Unsalted Butter, Granulated Sugar, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Rye Flour, Eggs, Vanilla Extract, Demerara Sugar, Kosher Salt, Baking Powder",
-          "price": 1.00,
-          "allergens": ["dairy", "eggs", "gluten"],
-          "sold_out": false
-        },
-        {
-          "name": "Pecan Brittle Oat Cookies",
-          "description": "Lacy oat cookies with pecan brittle. Unsalted Butter, Granulated Sugar, Rolled Oats, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Brown Sugar, Pecans, Eggs, Vanilla Extract, Baking Soda, Kosher Salt",
-          "price": 2.00,
-          "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
-          "sold_out": false
-        },
-        {
           "name": "Molasses Spice Cookies",
           "description": "Chewy molasses cookies, highlighting the flavor of ground long pepper, also known as the pipalli fruit. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Dark Brown Sugar, Butter, Molasses, Eggs, Demerara Sugar, Baking Soda, Apple Cider Vinegar, Vanilla Extract, Ground Ginger, Kosher Salt, Ground Long Pepper, Ground Allspice, Ground Cloves",
-          "price": 1.50,
-          "allergens": ["dairy", "eggs", "gluten"],
-          "sold_out": false
-        },
-        {
-          "name": "Almond Cookies",
-          "description": "Crumbly almond shortbread cookies. Unsalted Butter, Sugar, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Almond Flour, Eggs, Almond Extract, Baking Soda, Kosher Salt",
-          "price": 1.00,
-          "allergens": ["dairy", "eggs", "gluten", "tree nuts"],
-          "sold_out": false
-        },
-        {
-          "name": "Sage-Lemon Sablés",
-          "description": "French shortbread cookies, highlighting the flavor of fresh sage. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Unsalted Butter, Granulated Sugar, Demerara Sugar, Cornstarch, Eggs, Sage, Vanilla Extract, Kosher Salt, Lemon Zest",
           "price": 1.50,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
@@ -105,22 +48,15 @@
       "name": "Cakes",
       "items": [
         {
-          "name": "Rosh Hashanah Cake",
-          "description": "Celebratory honey-rye loaf cake, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Honey, Applesauce (Apples, Water, Ascorbic Acid), Eggs, Sugar, Rye Flour, Baking Powder, Ground Cinnamon, Kosher Salt, Ground Allspice, Ground Nutmeg, Lemon Zest, Ground Cloves, Vegetable Oil",
-          "price": 2.00,
-          "allergens": ["eggs", "gluten"],
-          "sold_out": false
-        },
-        {
-          "name": "Kabocha Tea Cake",
-          "description": "Spiced loaf cake with kabocha squash and pumpkin seeds, sold by the slice. Kabocha Squash, All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Sugar, Virgin Coconut Oil, Eggs, Pumpkin Seeds, Maple Syrup, Baking Powder, Vanilla Extract, Ground Turmeric, Kosher Salt, Garam Masala (Cumin, Black Pepper, Cinnamon, Cloves, Coriander, Cardamom)",
-          "price": 2.00,
-          "allergens": ["eggs", "gluten"],
-          "sold_out": false
-        },
-        {
           "name": "Coffee-Coffee Cake",
           "description": "Coffee-flavored crumb cake with coffee ribbon and streusel topping, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Brown Sugar, Butter, Granulated Sugar, Eggs, Sour Cream, Brewed Coffee, Vegetable Oil, Instant Coffee Granules, Vanilla Extract, Baking Powder, Kosher Salt, Ground Cinnamon, Baking Soda, Ground Cardamom",
+          "price": 2.50,
+          "allergens": ["dairy", "eggs", "gluten"],
+          "sold_out": false
+        }, 
+        {
+          "name": "Bay Laurel Pound Cake",
+          "description": "Bay Laurel cake with orange icing, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Sugar, Butter, Eggs, Powdered Sugar, Sour Cream, Orange, Vanilla Extract, Baking Powder, Bay Leaf, Orange Liquor, Kosher Salt",
           "price": 2.50,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
