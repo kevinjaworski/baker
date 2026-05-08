@@ -19,14 +19,14 @@
         {
           "name": "Focaccia",
           "description": "Italian olive oil bread topped with olives, rosemary, and sea salt. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Extra-Virgin Olive Oil, Butter, Castelvetrano Olives (Castelvetrano Olives, Water, Sea Salt, Lactic Acid, Ascorbic Acid, Citric Acid), Kalamata Olives (Kalamata Olives, Water, Sea Salt, Red Wine Vinegar, Lactic Acid, Extra Virgin Olive Oil), Rosemary, Garlic, Honey, Kosher Salt, Active Dry Yeast, Sea Salt",
-          "price": 5.00,
+          "price": 4.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
         },
         {
           "name": "French-Style Baguette",
           "description": "French bread with medium crumb & crackly crust. Bread Flour (Unbleached Hard Red Wheat Flour, Malted Barley Flour), Milk Whey, Salt, Yeast",
-          "price": 6.00,
+          "price": 5.00,
           "allergens": ["dairy", "gluten"],
           "sold_out": false
         }
@@ -38,7 +38,7 @@
         {
           "name": "Molasses Spice Cookies",
           "description": "Chewy molasses cookies, highlighting the flavor of ground long pepper, also known as the pipalli fruit. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Dark Brown Sugar, Butter, Molasses, Eggs, Demerara Sugar, Baking Soda, Apple Cider Vinegar, Vanilla Extract, Ground Ginger, Kosher Salt, Ground Long Pepper, Ground Allspice, Ground Cloves",
-          "price": 1.50,
+          "price": 3.00,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         }
@@ -50,14 +50,14 @@
         {
           "name": "Coffee-Coffee Cake",
           "description": "Coffee-flavored crumb cake with coffee ribbon and streusel topping, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Brown Sugar, Butter, Granulated Sugar, Eggs, Sour Cream, Brewed Coffee, Vegetable Oil, Instant Coffee Granules, Vanilla Extract, Baking Powder, Kosher Salt, Ground Cinnamon, Baking Soda, Ground Cardamom",
-          "price": 2.50,
+          "price": 4.00,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         }, 
         {
           "name": "Bay Laurel Pound Cake",
           "description": "Bay Laurel cake with orange icing, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Sugar, Butter, Eggs, Powdered Sugar, Sour Cream, Orange, Vanilla Extract, Baking Powder, Bay Leaf, Orange Liquor, Kosher Salt",
-          "price": 2.50,
+          "price": 3.00,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         }
