@@ -180,6 +180,41 @@ main {
     margin-bottom: 10px;
 }
 
+.item-ingredients {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ingredients-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.ingredients-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.ingredients-list li {
+    color: #666;
+    font-size: 0.95rem;
+    padding: 2px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.ingredients-list li::before {
+    content: "•";
+    color: var(--secondary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+}
+
 .item-allergens {
     margin-top: 10px;
     padding-top: 10px;
@@ -202,6 +237,61 @@ main {
     font-size: 0.85rem;
     margin-right: 6px;
     margin-bottom: 4px;
+}
+
+/* Market dates section */
+.market-dates-section {
+    margin-bottom: 40px;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.market-dates-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px var(--shadow);
+}
+
+.market-dates-list {
+    display: grid;
+    gap: 12px;
+}
+
+.market-date-card {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    padding: 18px 20px;
+    box-shadow: 0 2px 8px var(--shadow);
+    border-left: 4px solid var(--secondary-color);
+}
+
+.market-date-day {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 4px;
+}
+
+.market-date-time {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.market-date-location {
+    font-size: 0.95rem;
+    color: #777;
+    font-style: italic;
+}
+
+.market-date-notes {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 6px;
 }
 
 /* Footer */
