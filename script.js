@@ -5,9 +5,11 @@
 
 // Configuration
 const MENU_DATA_URL = 'data/menu.json';
+const MARKET_DATES_URL = 'data/market_dates.json';
 
 // DOM elements
 let menuContainer;
+let marketDatesContainer;
 let lastUpdatedElement;
 let marketDateElement;
 
@@ -16,9 +18,11 @@ let marketDateElement;
  */
 document.addEventListener('DOMContentLoaded', () => {
     menuContainer = document.getElementById('menuContainer');
+    marketDatesContainer = document.getElementById('marketDatesContainer');
     lastUpdatedElement = document.getElementById('lastUpdated');
     marketDateElement = document.getElementById('marketDate');
 
+    loadMarketDates();
     loadMenu();
 });
 
@@ -138,6 +142,28 @@ function createMenuItem(item) {
         itemDiv.appendChild(description);
     }
 
+    // Ingredients
+    if (item.ingredients && item.ingredients.length > 0) {
+        const ingredientsDiv = document.createElement('div');
+        ingredientsDiv.className = 'item-ingredients';
+
+        const label = document.createElement('span');
+        label.className = 'ingredients-label';
+        label.textContent = 'Ingredients:';
+        ingredientsDiv.appendChild(label);
+
+        const ingredientsList = document.createElement('ul');
+        ingredientsList.className = 'ingredients-list';
+        item.ingredients.forEach(ingredient => {
+            const listItem = document.createElement('li');
+            listItem.textContent = ingredient;
+            ingredientsList.appendChild(listItem);
+        });
+        ingredientsDiv.appendChild(ingredientsList);
+
+        itemDiv.appendChild(ingredientsDiv);
+    }
+
     // Allergens
     if (item.allergens && item.allergens.length > 0) {
         const allergensDiv = document.createElement('div');
@@ -159,6 +185,99 @@ function createMenuItem(item) {
     }
 
     return itemDiv;
+}
+
+/**
+ * Load market dates from JSON file
+ */
+async function loadMarketDates() {
+    try {
+        const response = await fetch(MARKET_DATES_URL);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        displayMarketDates(data);
+    } catch (error) {
+        console.error('Error loading market dates:', error);
+        // Market dates are non-critical — fail silently
+    }
+}
+
+/**
+ * Display the upcoming market dates section
+ */
+function displayMarketDates(data) {
+    if (!data.dates || data.dates.length === 0) {
+        return;
+    }
+
+    const now = new Date();
+    const upcoming = data.dates.filter(d => new Date(d.date) >= now);
+
+    if (upcoming.length === 0) {
+        return;
+    }
+
+    const section = document.createElement('div');
+    section.className = 'market-dates-section';
+
+    const header = document.createElement('div');
+    header.className = 'market-dates-header';
+    header.textContent = 'Upcoming Markets';
+    section.appendChild(header);
+
+    const list = document.createElement('div');
+    list.className = 'market-dates-list';
+
+    upcoming.forEach(dateObj => {
+        list.appendChild(createMarketDateCard(dateObj));
+    });
+
+    section.appendChild(list);
+    marketDatesContainer.appendChild(section);
+}
+
+/**
+ * Create a single market date card element
+ */
+function createMarketDateCard(dateObj) {
+    const card = document.createElement('div');
+    card.className = 'market-date-card';
+
+    const start = new Date(dateObj.date);
+
+    const dateEl = document.createElement('div');
+    dateEl.className = 'market-date-day';
+    dateEl.textContent = formatDate(start);
+    card.appendChild(dateEl);
+
+    const timeEl = document.createElement('div');
+    timeEl.className = 'market-date-time';
+    const timeOptions = { hour: 'numeric', minute: '2-digit', hour12: true };
+    if (dateObj.end_time) {
+        const end = new Date(dateObj.end_time);
+        timeEl.textContent = `${start.toLocaleTimeString('en-US', timeOptions)} \u2013 ${end.toLocaleTimeString('en-US', timeOptions)}`;
+    } else {
+        timeEl.textContent = start.toLocaleTimeString('en-US', timeOptions);
+    }
+    card.appendChild(timeEl);
+
+    if (dateObj.location) {
+        const locEl = document.createElement('div');
+        locEl.className = 'market-date-location';
+        locEl.textContent = dateObj.location;
+        card.appendChild(locEl);
+    }
+
+    if (dateObj.notes) {
+        const notesEl = document.createElement('div');
+        notesEl.className = 'market-date-notes';
+        notesEl.textContent = dateObj.notes;
+        card.appendChild(notesEl);
+    }
+
+    return card;
 }
 
 /**
