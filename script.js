@@ -227,57 +227,63 @@ function displayMarketDates(data) {
     header.textContent = 'Upcoming Markets';
     section.appendChild(header);
 
-    const list = document.createElement('div');
-    list.className = 'market-dates-list';
+    const tableWrapper = document.createElement('div');
+    tableWrapper.className = 'market-dates-table-wrapper';
 
-    upcoming.forEach(dateObj => {
-        list.appendChild(createMarketDateCard(dateObj));
+    const table = document.createElement('table');
+    table.className = 'market-dates-table';
+
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    ['Date', 'Time', 'Location'].forEach(col => {
+        const th = document.createElement('th');
+        th.textContent = col;
+        headerRow.appendChild(th);
     });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
 
-    section.appendChild(list);
+    const tbody = document.createElement('tbody');
+    upcoming.forEach(dateObj => {
+        tbody.appendChild(createMarketDateRow(dateObj));
+    });
+    table.appendChild(tbody);
+
+    tableWrapper.appendChild(table);
+    section.appendChild(tableWrapper);
     marketDatesContainer.appendChild(section);
 }
 
 /**
- * Create a single market date card element
+ * Create a single market date table row
  */
-function createMarketDateCard(dateObj) {
-    const card = document.createElement('div');
-    card.className = 'market-date-card';
+function createMarketDateRow(dateObj) {
+    const tr = document.createElement('tr');
 
     const start = new Date(dateObj.date);
-
-    const dateEl = document.createElement('div');
-    dateEl.className = 'market-date-day';
-    dateEl.textContent = formatDate(start);
-    card.appendChild(dateEl);
-
-    const timeEl = document.createElement('div');
-    timeEl.className = 'market-date-time';
     const timeOptions = { hour: 'numeric', minute: '2-digit', hour12: true };
+
+    const dateTd = document.createElement('td');
+    dateTd.className = 'market-date-day';
+    dateTd.textContent = formatDate(start);
+    tr.appendChild(dateTd);
+
+    const timeTd = document.createElement('td');
+    timeTd.className = 'market-date-time';
     if (dateObj.end_time) {
         const end = new Date(dateObj.end_time);
-        timeEl.textContent = `${start.toLocaleTimeString('en-US', timeOptions)} \u2013 ${end.toLocaleTimeString('en-US', timeOptions)}`;
+        timeTd.textContent = `${start.toLocaleTimeString('en-US', timeOptions)} \u2013 ${end.toLocaleTimeString('en-US', timeOptions)}`;
     } else {
-        timeEl.textContent = start.toLocaleTimeString('en-US', timeOptions);
+        timeTd.textContent = start.toLocaleTimeString('en-US', timeOptions);
     }
-    card.appendChild(timeEl);
+    tr.appendChild(timeTd);
 
-    if (dateObj.location) {
-        const locEl = document.createElement('div');
-        locEl.className = 'market-date-location';
-        locEl.textContent = dateObj.location;
-        card.appendChild(locEl);
-    }
+    const locTd = document.createElement('td');
+    locTd.className = 'market-date-location';
+    locTd.textContent = dateObj.location || '';
+    tr.appendChild(locTd);
 
-    if (dateObj.notes) {
-        const notesEl = document.createElement('div');
-        notesEl.className = 'market-date-notes';
-        notesEl.textContent = dateObj.notes;
-        card.appendChild(notesEl);
-    }
-
-    return card;
+    return tr;
 }
 
 /**
