@@ -39,7 +39,14 @@
       "name": "Breads",
       "items": [
         {
-          "name": "Focaccia",
+          "name": "Rosemary Focaccia",
+          "description": "Italian olive oil bread topped with rosemary, dried garlic, and sea salt. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Extra-Virgin Olive Oil, Butter, Rosemary, Garlic, Honey, Kosher Salt, Active Dry Yeast, Sea Salt",
+          "price": 5.00,
+          "allergens": ["dairy", "gluten"],
+          "sold_out": false
+        },
+        {
+          "name": "Olive Focaccia",
           "description": "Italian olive oil bread topped with olives, rosemary, and sea salt. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Extra-Virgin Olive Oil, Butter, Castelvetrano Olives (Castelvetrano Olives, Water, Sea Salt, Lactic Acid, Ascorbic Acid, Citric Acid), Kalamata Olives (Kalamata Olives, Water, Sea Salt, Red Wine Vinegar, Lactic Acid, Extra Virgin Olive Oil), Rosemary, Garlic, Honey, Kosher Salt, Active Dry Yeast, Sea Salt",
           "price": 5.00,
           "allergens": ["dairy", "gluten"],
