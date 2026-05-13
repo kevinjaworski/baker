@@ -50,7 +50,7 @@
         {
           "name": "Coffee-Coffee Cake",
           "description": "Coffee-flavored crumb cake with coffee ribbon and streusel topping, sold by the slice. All-Purpose Flour (Unbleached Hard Red Wheat Flour, Enzyme or Malted Barley Flour), Brown Sugar, Butter, Granulated Sugar, Eggs, Sour Cream, Brewed Coffee, Vegetable Oil, Instant Coffee Granules, Vanilla Extract, Baking Powder, Kosher Salt, Ground Cinnamon, Baking Soda, Ground Cardamom",
-          "price": 4.00,
+          "price": 5.00,
           "allergens": ["dairy", "eggs", "gluten"],
           "sold_out": false
         }, 
